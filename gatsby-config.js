@@ -1,10 +1,17 @@
 module.exports = {
     siteMetadata: {
-      title: `My First Gatsby Site`,
+      title: `我的第一个盖茨比网站`,
         siteUrl: `https://myfirstgatsbysitemain09656.gatsbyjs.io`,
     },
     plugins: [
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
+        {
+            resolve: "gatsby-source-filesystem",
+            options: {
+                name: `blog`,
+                path: `${__dirname}/blog`,
+            }
+        },
     ],
 }
