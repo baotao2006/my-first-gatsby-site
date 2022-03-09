@@ -28,24 +28,24 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
+      <title>未找到</title>
+      <h1 style={headingStyles}>页面没有找到</h1>
       <p style={paragraphStyles}>
-        Sorry{" "}
+        抱歉{" "}
         <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        we couldn’t find what you were looking for.
+        我们找不到您要找的东西。
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
             <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
+            尝试在<code style={codeStyles}>src/pages/</code>文件夹中创建一个页面。
             <br />
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link to="/">返回到首页</Link>.
       </p>
     </main>
   )

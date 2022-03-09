@@ -3,7 +3,7 @@ import Frame from '../components/frame'
 const GalleryPage = () => {
     return (
         <Frame>
-            <p>This will be passed in as children</p>
+            <p>这将作为children被传递。</p>
         </Frame>
     )
 }

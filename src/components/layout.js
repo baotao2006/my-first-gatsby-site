@@ -20,17 +20,17 @@ const Layout = ({ pageTitle, children }) => {
                 <ul className={styles.navLinks}>
                     <li className={styles.navLinkItem}>
                         <Link to="/" className={styles.navLinkText}>
-                            Home
+                            首页
                         </Link>
                     </li>
                     <li className={styles.navLinkItem}>
                         <Link to="/about" className={styles.navLinkText}>
-                            About
+                            关于
                         </Link>
                     </li>
                     <li className={styles.navLinkItem}>
                         <Link to="/blog" className={styles.navLinkText}>
-                            Blog
+                            博客
                         </Link>
                     </li>
                 </ul>

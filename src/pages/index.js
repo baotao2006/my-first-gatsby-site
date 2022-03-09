@@ -6,8 +6,8 @@ import { StaticImage } from 'gatsby-plugin-image'
 // 第2步：定义您的组件
 const IndexPage = () => {
     return (
-        <Layout pageTitle="Home Page">
-            <p>I'm making this by following the Gatsby Tutorial.</p>
+        <Layout pageTitle="首页">
+            <p>我是按照Gatsby教程来做的。</p>
             <StaticImage
                 alt="Clifford, a reddish-brown pitbull, dozing in a bean bag chair"
                 src="../images/clifford.jpg"

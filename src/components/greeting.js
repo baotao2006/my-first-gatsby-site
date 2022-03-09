@@ -4,7 +4,7 @@ import * as React from 'react'
 // 定义<Greeting>组件
 const Greeting = (props) => {
     return (
-        <p>Hi {props.name}!</p>
+        <p>哈 {props.name}!</p>
     )
 }
 

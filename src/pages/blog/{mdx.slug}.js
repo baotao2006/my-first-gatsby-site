@@ -8,13 +8,13 @@ const BlogPost = ({ data }) => {
 
     return (
         <Layout pageTitle={data.mdx.frontmatter.title}>
-            <p>Posted: {data.mdx.frontmatter.date}</p>
+            <p>发布时间：{data.mdx.frontmatter.date}</p>
             <GatsbyImage
                 image={image}
                 alt={data.mdx.frontmatter.hero_image_alt}
             />
             <p>
-                Photo Credit:{" "}
+                照片鸣谢：{" "}
                 <a href={data.mdx.frontmatter.hero_image_credit_link} target="_blank">
                     {data.mdx.frontmatter.hero_image_credit_text}
                 </a>

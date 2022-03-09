@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 // 第2步：定义您的组件
 const AboutPage = () => {
     return (
-        <Layout pageTitle="About Me">
-            <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+        <Layout pageTitle="关于我">
+            <p>你好呀！ 我是这个网站的骄傲创建者，我用Gatsby建立了这个网站。</p>
         </Layout>
     )
 }
